@@ -15,6 +15,8 @@ public class AlarmCreateActivity extends Activity {
 
 	private AlarmManager mAlarmManager;
 	private Intent mNotificationReceiverIntent, mLoggerReceiverIntent;
+	
+	//This is a test commit comment
 	private PendingIntent mNotificationReceiverPendingIntent,
 			mLoggerReceiverPendingIntent;
 	private static final long INITIAL_ALARM_DELAY = 2 * 60 * 1000L;
